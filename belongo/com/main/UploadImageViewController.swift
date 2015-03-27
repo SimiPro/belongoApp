@@ -27,12 +27,64 @@ class UploadImageViewController: UINavigationViewController,UIImagePickerControl
         super.viewDidLoad()
         picker.delegate = self   //the required delegate to get a photo back to the app.
         sendbtn.hidden = true
+        
+        Alamofire.request(ImageRequest.Test())
+            .responseString({ (request,response,data,error) in
+                println(data);
+            })
+        
      
+    }
+    
+    func completion(obj:AnyObject?, success: Bool?) {
+        
     }
     
     @IBAction func sendImage(sender: UIButton!) {
         
-        Alamofire.request(.GET, "http://localhost:8000/image/upload")
+        var data = UIImageJPEGRepresentation(chosenImage!, 1.0)
+        
+
+        
+        
+        // init paramters Dictionary
+        var parameters = [
+            "name": "testli",
+        ]
+        
+        // add addtionial parameters
+       // parameters["userId"] = "27"
+        //parameters["body"] = "This is the body text."
+        
+        // example image data
+       // let image = UIImage(named: "177143.jpg")
+        //let imageData = UIImagePNGRepresentation(image)
+        
+        
+        
+        // CREATE AND SEND REQUEST ----------
+        
+        let urlRequest = PP().urlRequestWithComponents("http://localhost:9005/ios/image/upload", parameters: parameters, imageData: data)
+        
+        Alamofire.upload(urlRequest.0, urlRequest.1)
+            .progress { (bytesWritten, totalBytesWritten, totalBytesExpectedToWrite) in
+                println("\(totalBytesWritten) / \(totalBytesExpectedToWrite)")
+            }
+            .responseJSON { (request, response, JSON, error) in
+                println("REQUEST \(request)")
+                println("RESPONSE \(response)")
+                if (response?.statusCode == 200) {
+                    println("JEPA");
+                }else {
+                    println("ERROR \(error)")
+                }
+            //    println("JSON \(JSON)")
+                
+        }    
+
+        
+        
+       /* Alamofire.request(.GET, "http://localhost:8000/image/upload")
             .responseJSON {(request, response, data, error) in
                 println(response)
         }
@@ -47,6 +99,7 @@ class UploadImageViewController: UINavigationViewController,UIImagePickerControl
                 println(JSON)
                 println(error)
         }
+*/
     }
     
     

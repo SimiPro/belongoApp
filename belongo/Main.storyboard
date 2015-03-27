@@ -22,7 +22,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="popMain:" destination="Z53-wk-FmD" eventType="touchUpInside" id="N4q-78-k1x"/>
+                                    <action selector="main:" destination="Z53-wk-FmD" eventType="touchUpInside" id="WSk-Lg-dDO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqm-7H-VfL">

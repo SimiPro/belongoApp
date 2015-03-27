@@ -21,6 +21,13 @@ class MainController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func main(sender: AnyObject) {
+            var storyboard = UIStoryboard(name: "Belongo", bundle: nil)
+            var controller = storyboard.instantiateViewControllerWithIdentifier("InitialController") as UIViewController
+            
+            self.presentViewController(controller, animated: true, completion: nil)
+    }
+    
     @IBAction func popLogin(sender: AnyObject) {
         var storyboard = UIStoryboard(name: "Login", bundle: nil)
         var controller = storyboard.instantiateViewControllerWithIdentifier("InitialController") as UIViewController
