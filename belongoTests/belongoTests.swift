@@ -8,8 +8,10 @@
 
 import UIKit
 import XCTest
+import Alamofire
 
 class belongoTests: XCTestCase {
+    
     
     override func setUp() {
         super.setUp()
@@ -22,6 +24,9 @@ class belongoTests: XCTestCase {
     }
     
     func testExample() {
+        
+        var data = NSData()
+        Alamofire.upload(.POST, "http://localhost:8000/image/upload?name=simi.jpg", data)
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
     }

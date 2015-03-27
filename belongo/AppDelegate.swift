@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  belongo
+//  SidebarMenu
 //
-//  Created by Simon Huber on 05/03/15.
-//  Copyright (c) 2015 itrip. All rights reserved.
+//  Created by Simon Ng on 2/2/15.
+//  Copyright (c) 2015 AppCoda. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch./Users/simipro/git/belongo/belongo/Main.storyboard
         return true
     }
 

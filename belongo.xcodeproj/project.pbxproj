@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76249EB91AAC3EA500384B7B /* IMG_1295.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 76249EB81AAC3EA500384B7B /* IMG_1295.JPG */; };
 		764F70011AA89D870012E0BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764F70001AA89D870012E0BC /* AppDelegate.swift */; };
-		764F70031AA89D870012E0BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764F70021AA89D870012E0BC /* ViewController.swift */; };
-		764F70061AA89D870012E0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764F70041AA89D870012E0BC /* Main.storyboard */; };
 		764F70081AA89D870012E0BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764F70071AA89D870012E0BC /* Images.xcassets */; };
 		764F700B1AA89D870012E0BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 764F70091AA89D870012E0BC /* LaunchScreen.xib */; };
 		764F70171AA89D870012E0BC /* belongoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764F70161AA89D870012E0BC /* belongoTests.swift */; };
+		764F703E1AA9A3070012E0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764F703D1AA9A3070012E0BC /* UIKit.framework */; };
+		764F70401AA9A3130012E0BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764F703F1AA9A3130012E0BC /* MapKit.framework */; };
+		764F70571AA9B4A00012E0BC /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 764F704C1AA9B3F10012E0BC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76A7DBB11AC58C8B001FDE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A7DBB01AC58C8B001FDE27 /* Main.storyboard */; };
+		76A7DBDB1AC58F14001FDE27 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBDA1AC58F14001FDE27 /* SWRevealViewController.m */; };
+		76A7DBDF1AC58F51001FDE27 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A7DBDE1AC58F51001FDE27 /* Login.storyboard */; };
+		76A7DBE81AC58F64001FDE27 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBE11AC58F64001FDE27 /* MapViewController.swift */; };
+		76A7DBE91AC58F64001FDE27 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBE21AC58F64001FDE27 /* MenuController.swift */; };
+		76A7DBEA1AC58F64001FDE27 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBE31AC58F64001FDE27 /* NewsTableViewCell.swift */; };
+		76A7DBEB1AC58F64001FDE27 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBE41AC58F64001FDE27 /* NewsTableViewController.swift */; };
+		76A7DBEC1AC58F64001FDE27 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBE51AC58F64001FDE27 /* PhotoViewController.swift */; };
+		76A7DBED1AC58F64001FDE27 /* UINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBE61AC58F64001FDE27 /* UINavigationViewController.swift */; };
+		76A7DBEE1AC58F64001FDE27 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBE71AC58F64001FDE27 /* UploadImageViewController.swift */; };
+		76A7DBF01AC58F8D001FDE27 /* Belongo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A7DBEF1AC58F8D001FDE27 /* Belongo.storyboard */; };
+		76A7DBF21AC59002001FDE27 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBF11AC59002001FDE27 /* MainController.swift */; };
+		76A7DBF91AC5926E001FDE27 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBF31AC5926E001FDE27 /* LoginRequest.swift */; };
+		76A7DBFA1AC5926E001FDE27 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBF41AC5926E001FDE27 /* LoginViewController.swift */; };
+		76A7DBFB1AC5926E001FDE27 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBF51AC5926E001FDE27 /* ResponseObjectSerializable.swift */; };
+		76A7DBFC1AC5926E001FDE27 /* SingupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBF61AC5926E001FDE27 /* SingupViewController.swift */; };
+		76A7DBFD1AC5926E001FDE27 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBF71AC5926E001FDE27 /* Token.swift */; };
+		76A7DBFE1AC5926E001FDE27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7DBF81AC5926E001FDE27 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +43,90 @@
 			remoteGlobalIDString = 764F6FFA1AA89D860012E0BC;
 			remoteInfo = belongo;
 		};
+		764F704B1AA9B3F10012E0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764F70441AA9B3F10012E0BC /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		764F704D1AA9B3F10012E0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764F70441AA9B3F10012E0BC /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		764F704F1AA9B3F10012E0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764F70441AA9B3F10012E0BC /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		764F70511AA9B3F10012E0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764F70441AA9B3F10012E0BC /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		764F70541AA9B4300012E0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764F70441AA9B3F10012E0BC /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		764F70561AA9B4430012E0BC /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				764F70571AA9B4A00012E0BC /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		76249EB81AAC3EA500384B7B /* IMG_1295.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1295.JPG; path = ../../../Pictures/IMG_1295.JPG; sourceTree = "<group>"; };
 		764F6FFB1AA89D870012E0BC /* belongo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = belongo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		764F6FFF1AA89D870012E0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764F70001AA89D870012E0BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		764F70021AA89D870012E0BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		764F70051AA89D870012E0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		764F70071AA89D870012E0BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		764F700A1AA89D870012E0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		764F70101AA89D870012E0BC /* belongoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = belongoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		764F70151AA89D870012E0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764F70161AA89D870012E0BC /* belongoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = belongoTests.swift; sourceTree = "<group>"; };
+		764F703D1AA9A3070012E0BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		764F703F1AA9A3130012E0BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		764F70441AA9B3F10012E0BC /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Carthage/Checkouts/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		76A7DBB01AC58C8B001FDE27 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		76A7DBD91AC58F14001FDE27 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		76A7DBDA1AC58F14001FDE27 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		76A7DBDC1AC58F2B001FDE27 /* belongo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "belongo-Bridging-Header.h"; sourceTree = "<group>"; };
+		76A7DBDE1AC58F51001FDE27 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		76A7DBE11AC58F64001FDE27 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		76A7DBE21AC58F64001FDE27 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		76A7DBE31AC58F64001FDE27 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		76A7DBE41AC58F64001FDE27 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		76A7DBE51AC58F64001FDE27 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		76A7DBE61AC58F64001FDE27 /* UINavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationViewController.swift; sourceTree = "<group>"; };
+		76A7DBE71AC58F64001FDE27 /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		76A7DBEF1AC58F8D001FDE27 /* Belongo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Belongo.storyboard; sourceTree = "<group>"; };
+		76A7DBF11AC59002001FDE27 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		76A7DBF31AC5926E001FDE27 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		76A7DBF41AC5926E001FDE27 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		76A7DBF51AC5926E001FDE27 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		76A7DBF61AC5926E001FDE27 /* SingupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingupViewController.swift; sourceTree = "<group>"; };
+		76A7DBF71AC5926E001FDE27 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		76A7DBF81AC5926E001FDE27 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764F70401AA9A3130012E0BC /* MapKit.framework in Frameworks */,
+				764F703E1AA9A3070012E0BC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +152,9 @@
 		764F6FF21AA89D860012E0BC = {
 			isa = PBXGroup;
 			children = (
+				764F70441AA9B3F10012E0BC /* Alamofire.xcodeproj */,
+				764F703F1AA9A3130012E0BC /* MapKit.framework */,
+				764F703D1AA9A3070012E0BC /* UIKit.framework */,
 				764F6FFD1AA89D870012E0BC /* belongo */,
 				764F70131AA89D870012E0BC /* belongoTests */,
 				764F6FFC1AA89D870012E0BC /* Products */,
@@ -77,12 +173,15 @@
 		764F6FFD1AA89D870012E0BC /* belongo */ = {
 			isa = PBXGroup;
 			children = (
+				76A7DBE01AC58F64001FDE27 /* main */,
+				76A7DBDD1AC58F51001FDE27 /* login */,
+				76A7DBD81AC58EF2001FDE27 /* SWRevealViewController */,
 				764F70001AA89D870012E0BC /* AppDelegate.swift */,
-				764F70021AA89D870012E0BC /* ViewController.swift */,
-				764F70041AA89D870012E0BC /* Main.storyboard */,
 				764F70071AA89D870012E0BC /* Images.xcassets */,
 				764F70091AA89D870012E0BC /* LaunchScreen.xib */,
 				764F6FFE1AA89D870012E0BC /* Supporting Files */,
+				76A7DBB01AC58C8B001FDE27 /* Main.storyboard */,
+				76A7DBF11AC59002001FDE27 /* MainController.swift */,
 			);
 			path = belongo;
 			sourceTree = "<group>";
@@ -98,6 +197,7 @@
 		764F70131AA89D870012E0BC /* belongoTests */ = {
 			isa = PBXGroup;
 			children = (
+				76249EB81AAC3EA500384B7B /* IMG_1295.JPG */,
 				764F70161AA89D870012E0BC /* belongoTests.swift */,
 				764F70141AA89D870012E0BC /* Supporting Files */,
 			);
@@ -112,6 +212,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		764F70451AA9B3F10012E0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				764F704C1AA9B3F10012E0BC /* Alamofire.framework */,
+				764F704E1AA9B3F10012E0BC /* Alamofire.framework */,
+				764F70501AA9B3F10012E0BC /* Alamofire iOS Tests.xctest */,
+				764F70521AA9B3F10012E0BC /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A7DBD81AC58EF2001FDE27 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76A7DBDC1AC58F2B001FDE27 /* belongo-Bridging-Header.h */,
+				76A7DBD91AC58F14001FDE27 /* SWRevealViewController.h */,
+				76A7DBDA1AC58F14001FDE27 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		76A7DBDD1AC58F51001FDE27 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				76A7DBF31AC5926E001FDE27 /* LoginRequest.swift */,
+				76A7DBF41AC5926E001FDE27 /* LoginViewController.swift */,
+				76A7DBF51AC5926E001FDE27 /* ResponseObjectSerializable.swift */,
+				76A7DBF61AC5926E001FDE27 /* SingupViewController.swift */,
+				76A7DBF71AC5926E001FDE27 /* Token.swift */,
+				76A7DBF81AC5926E001FDE27 /* ViewController.swift */,
+				76A7DBDE1AC58F51001FDE27 /* Login.storyboard */,
+			);
+			name = login;
+			path = com/login;
+			sourceTree = "<group>";
+		};
+		76A7DBE01AC58F64001FDE27 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				76A7DBEF1AC58F8D001FDE27 /* Belongo.storyboard */,
+				76A7DBE11AC58F64001FDE27 /* MapViewController.swift */,
+				76A7DBE21AC58F64001FDE27 /* MenuController.swift */,
+				76A7DBE31AC58F64001FDE27 /* NewsTableViewCell.swift */,
+				76A7DBE41AC58F64001FDE27 /* NewsTableViewController.swift */,
+				76A7DBE51AC58F64001FDE27 /* PhotoViewController.swift */,
+				76A7DBE61AC58F64001FDE27 /* UINavigationViewController.swift */,
+				76A7DBE71AC58F64001FDE27 /* UploadImageViewController.swift */,
+			);
+			name = main;
+			path = com/main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +274,12 @@
 				764F6FF71AA89D860012E0BC /* Sources */,
 				764F6FF81AA89D860012E0BC /* Frameworks */,
 				764F6FF91AA89D860012E0BC /* Resources */,
+				764F70561AA9B4430012E0BC /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				764F70551AA9B4300012E0BC /* PBXTargetDependency */,
 			);
 			name = belongo;
 			productName = belongo;
@@ -179,6 +333,12 @@
 			mainGroup = 764F6FF21AA89D860012E0BC;
 			productRefGroup = 764F6FFC1AA89D870012E0BC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 764F70451AA9B3F10012E0BC /* Products */;
+					ProjectRef = 764F70441AA9B3F10012E0BC /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				764F6FFA1AA89D860012E0BC /* belongo */,
@@ -187,12 +347,45 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		764F704C1AA9B3F10012E0BC /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 764F704B1AA9B3F10012E0BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		764F704E1AA9B3F10012E0BC /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 764F704D1AA9B3F10012E0BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		764F70501AA9B3F10012E0BC /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 764F704F1AA9B3F10012E0BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		764F70521AA9B3F10012E0BC /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 764F70511AA9B3F10012E0BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		764F6FF91AA89D860012E0BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764F70061AA89D870012E0BC /* Main.storyboard in Resources */,
+				76A7DBDF1AC58F51001FDE27 /* Login.storyboard in Resources */,
+				76A7DBB11AC58C8B001FDE27 /* Main.storyboard in Resources */,
+				76A7DBF01AC58F8D001FDE27 /* Belongo.storyboard in Resources */,
 				764F700B1AA89D870012E0BC /* LaunchScreen.xib in Resources */,
 				764F70081AA89D870012E0BC /* Images.xcassets in Resources */,
 			);
@@ -202,6 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76249EB91AAC3EA500384B7B /* IMG_1295.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +406,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764F70031AA89D870012E0BC /* ViewController.swift in Sources */,
+				76A7DBFA1AC5926E001FDE27 /* LoginViewController.swift in Sources */,
+				76A7DBED1AC58F64001FDE27 /* UINavigationViewController.swift in Sources */,
+				76A7DBE91AC58F64001FDE27 /* MenuController.swift in Sources */,
 				764F70011AA89D870012E0BC /* AppDelegate.swift in Sources */,
+				76A7DBEB1AC58F64001FDE27 /* NewsTableViewController.swift in Sources */,
+				76A7DBF21AC59002001FDE27 /* MainController.swift in Sources */,
+				76A7DBFD1AC5926E001FDE27 /* Token.swift in Sources */,
+				76A7DBFB1AC5926E001FDE27 /* ResponseObjectSerializable.swift in Sources */,
+				76A7DBEA1AC58F64001FDE27 /* NewsTableViewCell.swift in Sources */,
+				76A7DBFC1AC5926E001FDE27 /* SingupViewController.swift in Sources */,
+				76A7DBEE1AC58F64001FDE27 /* UploadImageViewController.swift in Sources */,
+				76A7DBEC1AC58F64001FDE27 /* PhotoViewController.swift in Sources */,
+				76A7DBE81AC58F64001FDE27 /* MapViewController.swift in Sources */,
+				76A7DBDB1AC58F14001FDE27 /* SWRevealViewController.m in Sources */,
+				76A7DBFE1AC5926E001FDE27 /* ViewController.swift in Sources */,
+				76A7DBF91AC5926E001FDE27 /* LoginRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,17 +441,14 @@
 			target = 764F6FFA1AA89D860012E0BC /* belongo */;
 			targetProxy = 764F70111AA89D870012E0BC /* PBXContainerItemProxy */;
 		};
+		764F70551AA9B4300012E0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 764F70541AA9B4300012E0BC /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		764F70041AA89D870012E0BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				764F70051AA89D870012E0BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		764F70091AA89D870012E0BC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,9 +543,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = belongo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "belongo/SWRevealViewController/belongo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +556,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = belongo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "belongo/SWRevealViewController/belongo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +617,7 @@
 				764F701C1AA89D870012E0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		764F701D1AA89D870012E0BC /* Build configuration list for PBXNativeTarget "belongoTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +626,7 @@
 				764F701F1AA89D870012E0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
